@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 65px;
+	
+}
+#imgrs{
+	
+	width: 100%;
+	position: relative;
+	left: 97em;
+	top: 1.5em;
+}
+#imgrs img{
+	border: 2px solid black;
+}
+h1{
+	text-align: center;
+	color: gray;
+}
+#imgbaner{
+	width: 100%;
+}
+
+aside{
+	
+	width: 30%;
+	display: block;
+	padding: 30px;
+	width: 20%;
+	list-style: none;
+}
+aside li{
+	padding: 10px;
+	
+}
+aside li a {
+	display: block;
+	background: gray;
+	padding : 10px;	
+}
+
+#imgmar{
+	float: right;
+	display: block;
+	width: 40%;
+	
+}
+#imgmar img{
+	width: 10%;
+}
+div{
+	margin: 50px;
+	text-align: right;
+	
+}

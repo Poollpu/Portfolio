@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 50px;
+}
+#cabecera{
+	text-align: center;
+}
+nav ul{
+	float: left;
+	padding: 0px 0px 0px 500px;
+	display: block;
+}
+div img{
+	width: 100%;
+}
+#Imagenes{
+	padding: 130px 130px;
+}
+#Imagenes img{
+	border: silver 27px solid;
+	width: 450px;
+	float: left;
+}
