@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*profe agregaria Mejores hovers pero no me acuerdo algunos codigos ...
+*/
+body {
+	background-color:blue;
+/*COLOREA EL FONDO*/
+}
+#marco {
+	width:70%; 
+	margin-left:15%; 
+	height:auto; 
+	float:left; 
+	background:white;
+	/*HACE UN CUADRO DENTRO DE BODY , CON COLOR DE FONDO , DIMENSIONES ,ETC. */
+}
+h1 {
+	text-align:center;
+	color:blue;
+	/*CENTRA LAS PALABRAS Y LAS COLOREA TITULO */
+}
+#baner {
+	width:100%;
+	height:120px;
+	float:left;
+	/* DIMENSIONES DE EL BANER , ABAJO DE EL TITULO*/
+}
+nav {
+	text-align: center;
+	width:100%;
+	margin-top:10px;
+	height:40px;
+	float:left;
+	/* SON LAS ENLACES DE LAS IMAGENES DE MP , CARAL , KUELAP , CON SUS RESPECTIVAS DIMENSIONES*/
+}
+.enlace {
+	font-size: 25px;
+	display:inline-block;
+	width:180px;
+	height:25px;
+	margin-right:10px;
+	/*SON LAS MISMAS ENLANCES SOLO QUE ESTA VES PODEMOS CONFIGURAR EL TAMAÑO , COLOR , ESPACIO DE LAS PALABRAS */
+}
+.enlace:hover {
+	color:green;
+	font-style:italic
+		/*ESTILO DE LAS ENLACES TIPO HOVER */
+}
+section {
+	width:100%;
+	margin-top:10px;
+	height:auto;
+	float:left;
+	/*ENLACES PARA ENLAZAR CON JAVA , MINI CUADRO PARA PONER EL TEXTO CON JAVA */
+}
+#titulo {
+	text-align:center;
+	color:blue;
+	/*NAME ID PARA JAVA , CONFIGURACIONES EN JAVA  */
+}
+#imgmar {
+	width:80%;
+	height:auto;
+	margin-left:10%;
+	margin-bottom:10px
+		/* IMAGEN VINCULADA POR JAVA , CONFIGURACIONES EN JAVA */
+}
