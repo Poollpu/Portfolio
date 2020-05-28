@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 65px;
+	
+}
+#imgrs{
+	
+	width: 100%;
+	position: relative;
+	left: 97em;
+	top: 1.5em;
+}
+#imgrs img{
+	border: 2px solid black;
+	border-radius: 10px;
+}
+h1{
+	text-align: center;
+	color: gray;
+}
+#imgbaner{
+	width: 100%;
+}
+
+aside{
+	
+	width: 30%;
+	display: block;
+	padding: 30px;
+	width: 20%;
+	list-style: none;
+}
+aside li{
+	padding: 10px;
+	
+}
+aside li a {
+	display: block;
+	background: gray;
+	padding : 10px;	
+}
+
+#imgmar{
+	float: right;
+	display: block;
+	width: 40%;
+	
+}
+#imgmar img{
+	width: 10%;
+}
+div{
+	margin: 50px;
+	text-align: right;
+	
+}
+.usuario{
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+}
+.Dni{
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	
+}
+.Email{
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	
+}
+.Comentario{
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+}
+input{
+	text-align: center;
+}
+form{
+	margin: 0 auto;
+	width: 10%;
+	padding: 40px;
+	background: #1291CC;
+	border-radius: 20px;
+	
+}
+#comentarioID{
+	height: 60px;
+}
+.boton{
+	margin: 20px 0 0 0;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	background: #DBAF25;
+	padding: 5px;
+	width: 100%;
+	height: 50px;
+}
+.boton:hover{
+	background:#F3C73C; 
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+<title>redes</title>
+</head>
+<link rel="stylesheet" href="../css/estilo.css">
+<script type="text/javascript" src="../js/codigo-redes.js" ></script>
+<body>
+	
+	<header id="imgrs">
+	<img  src="../imagenes/cabecera/face.jpg" alt="">
+	<img  src="../imagenes/cabecera/twit.jpg" alt="">
+	<img  src="../imagenes/cabecera/inst.png" alt="">
+	</header>
+	
+	<h1>Todo Pesca - Redes</h1>
+	<img id="imgbaner" src="../imagenes/baner/baner3.jpg" alt="todopesca">
+	
+	
+
+	<form action="#" method="get" name="Usuario" id="UsuarioID">
+		<div class="usuario"><p>Usuario:</p></div><input type="text" name="usuario" id="usuarioID" placeholder="Escriba su usuario"><br>
+		<div class="Dni"><p>DNI:</p></div><input type="text" name="dni" id="dniID" placeholder="Escriba su Dni"><br>
+		<div class="Email"><p>Email:</p></div><input type="text" name="email" id="emailID" placeholder="Escriba su Email"><br>
+		<div class="Comentario"><p>Comentario:</p></div><input type="text" name="comentario" id="comentarioID" placeholder="Aqui escriba su mensaje"><br>
+		<input type="submit" name="enviar" class="boton">
+	
+	</form>
+	
+	
+	
+	
+	<script>
+	var ingresos=document.Usuario;
+		
+	function validarNombre(e){
+		if(ingresos.usuario.value==0){
+			alert("INGRESA EL USUARIO");
+			e.preventDefault();
+		}	
+	}
+	
+	function validaDni(e){
+		if(ingresos.dni.value==0){
+			alert("INGRESA DNI")
+			e.preventDefault();
+		}
+	}
+		
+	function validaEmail(e){
+		if(ingresos.email.value==0){
+			
+			alert("INGRESA EMAIL");
+			e.preventDefault();
+		}
+	}
+	
+	function iniciar(e){
+		validarNombre(e);
+		validaDni(e);
+		validaEmail(e);
+	}
+	
+		document.getElementById("UsuarioID").addEventListener('submit',iniciar)
+	
+	</script>
+	
+	
+	
+	
+	
+</body>
+</html>
