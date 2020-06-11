@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Carrusel</title>
+</head>
+<link rel="stylesheet" href="../css/estilo.css">
+<script src="../libreria/java.js"></script>
+<body>
+	<div class="contenedor">
+			<div class="imagen actual">
+				<img src="../imagenes/1.jpg" />
+			
+			</div>
+			
+			<div class="imagen">
+				<img src="../imagenes/2.jpg" />
+				
+			</div>
+			
+			<div class="imagen">
+				<img src="../imagenes/3.png" />
+				
+			</div>
+			
+			
+			<div class="puntos">
+				<span class="punto activo" onclick="mostrar(0);"></span>
+				<span class="punto" onclick="mostrar(1);"></span>
+				<span class="punto" onclick="mostrar(2);"></span>
+				
+			</div>
+			
+			<div class="boton">
+				<a href="#">
+					<img src="../imagenes/pause.png" id="btn" onclick="playpause();" />
+				</a>
+			</div>
+		</div>
+</body>
+</html>
